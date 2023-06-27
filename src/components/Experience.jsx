@@ -100,7 +100,7 @@ const Experience = () => {
               w-[125px] h-[46px] rounded-[10px] bg-jetLight 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
+              ease-in-out overflow-y-hidden"
               onClick={() =>
                 window.open(
                   curriculo,

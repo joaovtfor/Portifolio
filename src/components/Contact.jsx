@@ -126,7 +126,7 @@ const Contact = () => {
             whitespace-nowrap sm:w-[150px] sm:h-[50px] 
             w-[100px] h-[45px] rounded-[10px] bg-night 
             hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
+            transition duration-[0.2s] ease-in-out overflow-y-hidden"
             onMouseOver={() => {
               document
                 .querySelector('.contact-btn')
@@ -139,8 +139,8 @@ const Contact = () => {
             <img
               src={send}
               alt="send"
-              className="contact-btn sm:w-[26px] sm:h-[26px] 
-              w-[23px] h-[23px] object-contain"
+              className="contact-btn sm:w-[22px] sm:h-[22px] 
+              w-[20px] h-[20px] object-contain"
             />
           </button>
         </form>
