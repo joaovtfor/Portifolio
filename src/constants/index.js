@@ -31,16 +31,28 @@ import {
 
 export const navLinks = [
   {
+    id: 'home',
+    title: 'Home',
+  },
+  {
     id: 'about',
-    title: 'About',
+    title: 'Sobre',
+  },
+  {
+    id: 'tech',
+    title: 'Tecnologias',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Projetos',
+  },
+  {
+    id: 'work',
+    title: 'Experiências',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Contato',
   },
 ];
 
@@ -50,16 +62,12 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'React.js Dev',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'HTML5 / CSS3',
     icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
   },
 ];
 
@@ -77,87 +85,55 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
+    title: 'HTML5 / CSS3',
     company_name: 'Kelhel',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Fev 2022 - Jun 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Javascript',
+    company_name: 'Udemy',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Jun 2022 - Jan 2023',
+  },
+  {
+    title: 'React.js',
+    company_name: 'Udemy',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Jul 2022 - Presente',
+  },
+  {
+    title: 'Desenvolvedor Frontend',
+    company_name: 'IM9 Digital',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Abr 2022 - Presente',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Formulário estilizado',
+    description: 'Projeto formulário estilizado, feito a partir de HTML, CSS e JS..',
     tags: [
       {
         name: 'react',
@@ -173,14 +149,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/joaovtfor/pform.git',
+    demo: 'https://github.com/joaovtfor/pform.git',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Task List',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Projeto de lista de tarefas, feito a partir da biblioteca React.js.',
     tags: [
       {
         name: 'react',
@@ -196,13 +172,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/joaovtfor/Project-TaskList.git',
+    demo: 'https://github.com/joaovtfor/Project-TaskList.git',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Secret Word',
+    description: 'Projeto de jogo da forca, feito a partir da biblioteca React.js.',
     tags: [
       {
         name: 'nextjs',
@@ -218,13 +194,13 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/joaovtfor/projetosw.git',
+    demo: 'https://github.com/joaovtfor/projetosw.git',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Mini Blog - UPF',
+    description: `Projeto de rede social vinculado à UPF, com Front-End construído com React.js, utilizando a API de banco de dados Firebase.`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +216,14 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/joaovtfor/Projeto-UPF-React',
+    demo: 'https://github.com/joaovtfor/Projeto-UPF-React',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Exercícios em Python',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Repositório com exercícios, utilizando Python no curso de Ciência da Computação da Universidade de Passo Fundo (UPF).',
     tags: [
       {
         name: 'nextjs',
@@ -263,8 +239,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/joaovtfor/Python.git',
+    demo: 'https://github.com/joaovtfor/Python.git',
   },
 ];
 
