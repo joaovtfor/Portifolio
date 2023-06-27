@@ -116,19 +116,15 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Estudos</p>
+        <h2 className={`${styles.sectionHeadTextLight}`}>Projetos.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          Esta seção mostra alguns dos projetos desenvolvidos por mim até hoje, variando desde projetos simples de criação de formulários, até projetos extensos utilizando bibliotecas como o React.js. Os projetos não possuem linguagem fixa, variando entre HTML5, CSS3, Javascript, React.js, Firebase e Python, linguagens que implementei em meus repositórios no Github.
         </motion.p>
       </div>
 
