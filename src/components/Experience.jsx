@@ -9,6 +9,7 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
+import curriculo from '../assets/personal/curriculo.pdf'
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -56,10 +57,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          Minhas experiências até hoje
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          Experiências de trabalho.
         </h2>
       </motion.div>
 
@@ -102,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  curriculo,
                   '_blank'
                 )
               }
