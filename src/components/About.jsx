@@ -30,19 +30,15 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Sobre mim!</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Olá, me chamo João Vitor de For dos Santos, sou um jovem de 20 anos, universitário cursando Ciência da Computação na Universidade de Passo Fundo, sou um desenvolvedor Front-End, com especialização em
+        React.js, Node.js, HTML, SASS e SCSS. Atualmente estudo Ciência da Computação na Universidade de Passo Fundo (UPF), além de trabalhar como Desenvolvedor de Sistemas na empresa RotaSystem, na parte de Front-End da equipe IM9, na sede de Passo Fundo. Atualmente estudo tecnologias voltadas ao meu trabalho, como a biblioteca React.js, bem como novas tecnologias, tais como Typescript e Next.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
